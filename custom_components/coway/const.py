@@ -13,7 +13,7 @@ from homeassistant.util.percentage import ordered_list_item_to_percentage
 
 LOGGER = logging.getLogger(__package__)
 
-DEFAULT_SCAN_INTERVAL = 30
+DEFAULT_SCAN_INTERVAL = 300
 TIMEOUT = 20
 DEFAULT_NAME = "Coway IoCare"
 DOMAIN = "coway"
